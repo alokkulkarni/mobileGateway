@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "mobileGateway",
+    "packageName": "com.alok.mobilegateway",
+    "packageFolder": "com/alok/mobilegateway",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "NDgzYzliMzhhMDlmM2E5YjViMTUyM2QxZTEyM2I0YmE4Mzk4MWZjYzA2ZDMyZTE5MjQ5YWFhYjZlMzJhOTIzZTAyNWYyODU3MGVkMDA1MzQ2NzhlYjA3MGY2NWYwMWM0ZTU2NmViYzE4NDFhZTE3NWE4YzZjMWYxNWVkMTAzZWI=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "alokkulkarni",
+  "repository-name": "mobileGateway"
+}
